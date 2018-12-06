@@ -2,32 +2,32 @@ package unitTests;
 
 import model.StringCalculator;
 import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 
 public class StringCalculatorTest {
 
-    @Test
-    public void add_emptyString_sum(){
-        StringCalculator sut = new StringCalculator();
-        int actual = sut.Add("");
-        int expected = 0;
-        Assert.assertEquals(actual,expected);
+    private StringCalculator sut;
+
+    @BeforeMethod
+    public void SetUp(){
+        sut = new StringCalculator();
     }
 
-    @Test
-    public void add_oneNumberString_sum(){
-        StringCalculator sut = new StringCalculator();
-        int actual = sut.Add("1");
-        int expected = 1;
-        Assert.assertEquals(actual,expected);
+    @DataProvider
+    public static Object[][] numbersStrings(){
+        return new Object[][]{
+                {"", 0},
+                {"1", 1},
+                {"1,2", 3}
+        };
     }
 
-    @Test
-    public void add_twoNumbersString_sum(){
-        StringCalculator sut = new StringCalculator();
-        int actual = sut.Add("1,2");
-        int expected = 3;
+    @Test(dataProvider = "numbersStrings")
+    public void add_numbersStrings_sum(String numbersString, int expected){
+        int actual = sut.Add(numbersString);
         Assert.assertEquals(actual,expected);
     }
 
