@@ -25,13 +25,19 @@ public class StringCalculatorTest {
                 {"1,3,6", 10},
                 {"2,2,5,1", 10},
                 {"1\n2,3", 6},
-                {"//;\n1;2", 3}
+                {"//;\n1;2", 3},
+                {"1,2,-5,-1", 0}
         };
     }
 
     @Test(dataProvider = "numbersStrings")
     public void add_numbersString_sum(String numbersString, int expected){
-        int actual = sut.Add(numbersString);
+        int actual = 0;
+        try{
+            actual = sut.Add(numbersString);
+        } catch(Exception e){
+            System.err.print(e.toString());
+        }
         Assert.assertEquals(actual,expected);
     }
 
