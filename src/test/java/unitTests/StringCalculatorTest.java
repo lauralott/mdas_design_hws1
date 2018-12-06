@@ -23,12 +23,13 @@ public class StringCalculatorTest {
                 {"1", 1},
                 {"1,2", 3},
                 {"1,3,6", 10},
-                {"2,2,5,1", 10}
+                {"2,2,5,1", 10},
+                {"1\n2,3", 6}
         };
     }
 
     @Test(dataProvider = "numbersStrings")
-    public void add_numbersStrings_sum(String numbersString, int expected){
+    public void add_numbersString_sum(String numbersString, int expected){
         int actual = sut.Add(numbersString);
         Assert.assertEquals(actual,expected);
     }
