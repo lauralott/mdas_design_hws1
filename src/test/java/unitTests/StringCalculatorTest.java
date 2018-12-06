@@ -21,7 +21,9 @@ public class StringCalculatorTest {
         return new Object[][]{
                 {"", 0},
                 {"1", 1},
-                {"1,2", 3}
+                {"1,2", 3},
+                {"1,3,6", 10},
+                {"2,2,5,1", 10}
         };
     }
 
