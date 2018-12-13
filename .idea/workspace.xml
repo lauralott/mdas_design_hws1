@@ -4,9 +4,9 @@
     <list default="true" id="b93861ba-b3e6-4ba3-84eb-3a40a555db69" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/StringCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/StringCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/unitTests/StringCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unitTests/StringCalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/unitTests/StringCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/model/StringCalculatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/model/StringCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/StringCalculator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/unitTests/StringCalculatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/unitTests/StringCalculatorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/unitTests/StringCalculatorTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,25 +22,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/unitTests/StringCalculatorTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/StringCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+            <state relative-caret-position="442">
+              <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#272#273#0" expanded="true" />
-                <element signature="e#316#317#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/model/StringCalculator.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/model/StringCalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+            <state relative-caret-position="189">
+              <caret line="35" column="10" lean-forward="true" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -64,8 +65,14 @@
         <option value="$PROJECT_DIR$/src/main/java/StringCalculator.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/StringCalculator.java" />
         <option value="$PROJECT_DIR$/src/test/java/unitTests/StringCalculatorTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/model/StringCalculatorTest.java" />
       </list>
     </option>
+  </component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="TestNG" name="StringCalculatorTest.add_numbersString_sum" />
+    </enabled-run-configurations>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -85,8 +92,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -94,23 +99,45 @@
               <item name="mdas_design_hws1" type="b2602c69:ProjectViewProjectNode" />
               <item name="mdas_design_hws1" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="mdas_design_hws1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mdas_design_hws1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mdas_design_hws1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mdas_design_hws1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mdas_design_hws1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mdas_design_hws1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544107597620" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544562063857" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/homework.txt" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../code-smells" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Laura\Dropbox\MDAS\Diseño Software\mdas_design_hws1\src\main\test" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="model" />
       <recent name="" />
@@ -128,17 +155,35 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.StringCalculatorTest.add_numbersString_sum">
-    <configuration name="StringCalculatorTest.add_numbersString_sum" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.StringCalculatorTest.add_negativeNumbersString_sum">
+    <configuration name="StringCalculatorTest.add_negativeNumbersString_sum" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="mdas_design_hws1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="unitTests.*" />
+          <option name="PATTERN" value="model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="model" />
+      <option name="MAIN_CLASS_NAME" value="model.StringCalculatorTest" />
+      <option name="METHOD_NAME" value="add_negativeNumbersString_sum" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringCalculatorTest.add_numbersString_sum" type="TestNG" nameIsGenerated="true">
+      <module name="mdas_design_hws1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="unitTests" />
-      <option name="MAIN_CLASS_NAME" value="unitTests.StringCalculatorTest" />
+      <option name="MAIN_CLASS_NAME" value="model.StringCalculatorTest" />
       <option name="METHOD_NAME" value="add_numbersString_sum" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -151,12 +196,12 @@
       <module name="mdas_design_hws1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="unitTests.*" />
+          <option name="PATTERN" value="model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="unitTests" />
-      <option name="MAIN_CLASS_NAME" value="unitTests.StringCalculatorTest" />
+      <option name="MAIN_CLASS_NAME" value="model.StringCalculatorTest" />
       <option name="METHOD_NAME" value="add_numbersStrings_sum" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -169,12 +214,12 @@
       <module name="mdas_design_hws1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="unitTests.*" />
+          <option name="PATTERN" value="model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="unitTests" />
-      <option name="MAIN_CLASS_NAME" value="unitTests.StringCalculatorTest" />
+      <option name="MAIN_CLASS_NAME" value="model.StringCalculatorTest" />
       <option name="METHOD_NAME" value="add_oneNumberString_sum" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -187,12 +232,12 @@
       <module name="mdas_design_hws1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="unitTests.*" />
+          <option name="PATTERN" value="model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="unitTests" />
-      <option name="MAIN_CLASS_NAME" value="unitTests.StringCalculatorTest" />
+      <option name="MAIN_CLASS_NAME" value="model.StringCalculatorTest" />
       <option name="METHOD_NAME" value="add_twoNumberString_sum" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -205,12 +250,12 @@
       <module name="mdas_design_hws1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="unitTests.*" />
+          <option name="PATTERN" value="model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="unitTests" />
-      <option name="MAIN_CLASS_NAME" value="unitTests.StringCalculatorTest" />
+      <option name="MAIN_CLASS_NAME" value="model.StringCalculatorTest" />
       <option name="METHOD_NAME" value="add_twoNumbersString_sum" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -221,7 +266,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.StringCalculatorTest.add_numbersString_sum" />
+        <item itemvalue="TestNG.StringCalculatorTest.add_negativeNumbersString_sum" />
         <item itemvalue="TestNG.StringCalculatorTest.add_numbersStrings_sum" />
         <item itemvalue="TestNG.StringCalculatorTest.add_twoNumbersString_sum" />
         <item itemvalue="TestNG.StringCalculatorTest.add_oneNumberString_sum" />
@@ -240,7 +285,10 @@
       <option name="presentableId" value="Default" />
       <updated>1544093837277</updated>
       <workItem from="1544093838945" duration="134000" />
-      <workItem from="1544094049615" duration="7280000" />
+      <workItem from="1544094049615" duration="11566000" />
+      <workItem from="1544552701804" duration="1427000" />
+      <workItem from="1544554385567" duration="4721000" />
+      <workItem from="1544724754756" duration="292000" />
     </task>
     <task id="LOCAL-00001" summary="adds initial tests">
       <created>1544101141128</created>
@@ -263,59 +311,79 @@
       <option name="project" value="LOCAL" />
       <updated>1544106011810</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Allows the Add method to handle new lines between numbers">
+      <created>1544107738601</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1544107738601</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Allows Add method to support different delimiters">
+      <created>1544109394692</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1544109394692</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add method throws exception “negatives not allowed”">
+      <created>1544110857928</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1544110857928</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StringCalculatorTest_add_numbersStrings_sum - 2018.12.06 at 15h 18m 22s.xml">
-      <configuration name="StringCalculatorTest.add_numbersStrings_sum" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="StringCalculatorTest_add_numbersStrings_sum - 2018.12.06 at 15h 25m 14s.xml">
-      <configuration name="StringCalculatorTest.add_numbersStrings_sum" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="StringCalculatorTest_add_numbersStrings_sum - 2018.12.06 at 15h 26m 36s.xml">
-      <configuration name="StringCalculatorTest.add_numbersStrings_sum" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="StringCalculatorTest_add_numbersStrings_sum - 2018.12.06 at 15h 29m 34s.xml">
-      <configuration name="StringCalculatorTest.add_numbersStrings_sum" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="StringCalculatorTest_add_numbersStrings_sum - 2018.12.06 at 15h 36m 18s.xml">
-      <configuration name="StringCalculatorTest.add_numbersStrings_sum" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="StringCalculatorTest_add_numbersString_sum - 2018.12.06 at 15h 41m 08s.xml">
+    <history-entry file="StringCalculatorTest_add_numbersString_sum - 2018.12.06 at 16h 36m 47s.xml">
       <configuration name="StringCalculatorTest.add_numbersString_sum" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="StringCalculatorTest_add_numbersString_sum - 2018.12.06 at 15h 45m 04s.xml">
+    <history-entry file="StringCalculatorTest_add_numbersString_sum - 2018.12.06 at 16h 37m 48s.xml">
       <configuration name="StringCalculatorTest.add_numbersString_sum" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="StringCalculatorTest_add_numbersString_sum - 2018.12.06 at 15h 45m 29s.xml">
+    <history-entry file="StringCalculatorTest_add_numbersString_sum - 2018.12.06 at 16h 37m 51s.xml">
       <configuration name="StringCalculatorTest.add_numbersString_sum" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="StringCalculatorTest_add_numbersString_sum - 2018.12.06 at 15h 45m 48s.xml">
+    <history-entry file="StringCalculatorTest_add_numbersString_sum - 2018.12.06 at 16h 39m 47s.xml">
       <configuration name="StringCalculatorTest.add_numbersString_sum" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="StringCalculatorTest_add_numbersString_sum - 2018.12.06 at 15h 46m 22s.xml">
+    <history-entry file="StringCalculatorTest_add_numbersString_sum - 2018.12.06 at 16h 39m 49s.xml">
       <configuration name="StringCalculatorTest.add_numbersString_sum" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="StringCalculatorTest_add_numbersString_sum - 2018.12.11 at 20h 20m 45s.xml">
+      <configuration name="StringCalculatorTest.add_numbersString_sum" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="StringCalculatorTest_add_numbersString_sum - 2018.12.11 at 20h 42m 34s.xml">
+      <configuration name="StringCalculatorTest.add_numbersString_sum" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="StringCalculatorTest_add_negativeNumbersString_sum - 2018.12.11 at 20h 42m 49s.xml">
+      <configuration name="StringCalculatorTest.add_negativeNumbersString_sum" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="StringCalculatorTest_add_negativeNumbersString_sum - 2018.12.11 at 20h 55m 31s.xml">
+      <configuration name="StringCalculatorTest.add_negativeNumbersString_sum" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="StringCalculatorTest_add_negativeNumbersString_sum - 2018.12.11 at 20h 55m 52s.xml">
+      <configuration name="StringCalculatorTest.add_negativeNumbersString_sum" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7414000" />
+    <option name="totallyTimeSpent" value="18140000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.3689168" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17397882" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32405892" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.57283145" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.33878887" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5139116" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -324,7 +392,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3289689" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3289689" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50075644" side_tool="true" weight="0.57283145" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32405892" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -343,31 +412,16 @@
     <MESSAGE value="adds initial tests" />
     <MESSAGE value="test refactoring" />
     <MESSAGE value="Allows 'Add method' to handle an unknown amount of numbers" />
-    <option name="LAST_COMMIT_MESSAGE" value="Allows 'Add method' to handle an unknown amount of numbers" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/model/StringCalculator.java</url>
-          <line>6</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Allows the Add method to handle new lines between numbers" />
+    <MESSAGE value="Allows Add method to support different delimiters" />
+    <MESSAGE value="Add method throws exception “negatives not allowed”" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add method throws exception “negatives not allowed”" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/StringCalculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/StringCalculator.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8.5/testng-6.8.5.jar!/org/testng/internal/Invoker.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="262">
@@ -375,31 +429,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/stackexchange.com.url">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/stackexchange.com.url" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="2223" column="5" lean-forward="true" selection-start-line="2223" selection-start-column="5" selection-end-line="2223" selection-end-column="5" />
+        <state relative-caret-position="73">
+          <caret line="2937" column="7" lean-forward="true" selection-start-line="2937" selection-start-column="7" selection-end-line="2937" selection-end-column="7" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/test/unitTests/StringCalculatorTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/model/StringCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        <state relative-caret-position="442">
+          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/unitTests/StringCalculatorTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/model/StringCalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+        <state relative-caret-position="189">
+          <caret line="35" column="10" lean-forward="true" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#272#273#0" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
           </folding>
         </state>
       </provider>
